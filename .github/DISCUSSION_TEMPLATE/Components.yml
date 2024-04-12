@@ -16,7 +16,7 @@ body:
   - type: textarea
     id: screenshot
     attributes:
-      label: Eksempel av komponenten
+      label: Eksempel på komponenten
       description: "Du kan enten legge ved et skjermbilde eller link"
     validations:
       required: true
