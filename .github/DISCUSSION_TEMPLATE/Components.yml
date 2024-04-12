@@ -7,8 +7,7 @@ body:
     id: description
     attributes:
       label: Beskriv komponenten 
-      placeholder: |
-        Beskriv komponenten og hvilket behov den dekker
+      placeholder: "Beskriv komponenten og hvilket behov den dekker"
     validations:
       required: true
   - type: textarea
@@ -16,8 +15,7 @@ body:
     attributes:
       label: Legg ved et eksempel av komponenten
       description: "Du kan enten legge ved et skjermbilde eller link"
-      placeholder: |
-        Skjermbilde eller link...
+      placeholder: "Skjermbilde eller link..."
     validations:
       required: true
   - type: textarea
