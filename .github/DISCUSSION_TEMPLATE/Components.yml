@@ -2,21 +2,27 @@ body:
   - type: markdown
     attributes:
       value: |
-        Takk for at du bidrar med å dokumentere behovet for en ny komponent 🎉
+        ## Takk for at du bidrar med å dokumentere behovet for en ny komponent 🎉
   - type: textarea
     id: description
     attributes:
-      label: Beskriv komponenten
-      value: |
+      label: Beskriv komponenten 
+      placeholder: |
         Beskriv komponenten og hvilket behov den dekker
     validations:
       required: true
   - type: textarea
     id: screenshot
     attributes:
-      label: Legg ved et skjermbilde eller link til et eksempel
-      value: |
+      label: Legg ved et eksempel av komponenten
+      description: "Du kan enten legge ved et skjermbilde eller link"
+      placeholder: |
         Skjermbilde eller link...
     validations:
       required: true
-
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Hvilken virksomhet eller team kommer behovet fra?
+    validations:
+      required: false
